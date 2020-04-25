@@ -12,116 +12,124 @@ body {
     float: left;
     color: whitesmoke;
     text-align: center;
-    padding: 0.75em;
+    padding-top: 1vh;
+    padding-right: 2vw;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     text-shadow: 2px 2px black;
 }
 .topnav img {
     float: left;
-    margin: 1ex;
-    padding-right: 0.5em;
+    margin-top: 0.4vh;
+    margin-right: 0.5vw;
+    margin-left: 0.2vw;
     width: 2em;
-    height: 2em;
-    max-width: 4ex;
+    height: 4vh;
 }
 
 .topnav p {
     float: left;
     color: whitesmoke;
     font-size: 2em;
-    margin-top: 0.4ex;
+    margin-top: 0.4vh;
 }
 
 .topnav-right {
     float: right; 
 }
 
-.twitter-body p {
+.twitter-filter-section p {
     margin-top: 2.2vh;
-    margin-left: 13vw;
+    margin-left: 8vw;
+    font-size: 1.2em;
     float: left;
-    margin-right: 1vw;
+    margin-right: 0.5vw;
 }
 
-.twitter-body input {
+.twitter-body .twitter-filter-section input {
     margin-top: 2.2vh;
 }
 
 .twitter-dashboard-left {
-    width: 70%;
+    width: 75%;
     float: left;
 }
 
 .twitter-flex-container-dashboard {
     display: flex;
     align-content: flex-start;
-    width: 71%;
+    width: 50%;
     height: 100%;
     flex-flow: row wrap;
-    margin-left: 1vw;
     position: relative;
-    left: -5.5vw;
+    left: -4.5vw;
 }
 
 .twitter-person {
-    width: 15vw;
-    height: auto;
+    width: 8.5vw;
+    height: 17vh;
     text-align: center;
-    border: 0.3vw solid rgb(129, 128, 128) ;
+    border: 0.2vw solid rgb(187, 184, 184) ;
     border-radius: 3px;
     margin-top: 1vh;
     margin-right: 0.7vw;
 
 }
 .twitter-person input {
-    width: 5vw;
+    width: auto;
+    font-size: 0.9em;
     margin-top: 0.5vh;
+    word-wrap: break-word;
+    min-width: 68.px;
 }
 
 .twitter-person img {
-    width: 5vw;
-    height: 7vh;
+    width: 3vw;
+    height: 6vh;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 1vh;
+    padding-top: 1.5vh;
 }
 
 .twitter-person p {
-    margin-left: 23%;
+    margin-left: 15%;
     margin-top: 1.5vh;
-    width: 60%;
+    width: 70%;
 }
 
 
 .twitter-person:hover {
-    border-color: rgb(43, 42, 42);
+    border-color: rgb(119, 111, 111);
 }
 
 .twitter-dashboard-right {
-    width: 30%;
+    width: 25%;
     height: 100%;
     float: right;
 }
 
 .twitter-dashboard-right-flex-container {
-    width: 30%;
     display: flex;
     flex-flow: column wrap;
-    border: 0.3vw solid rgb(129, 128, 128) ;
+    border: 0.3vw solid rgb(170, 168, 168) ;
     border-radius: 3px;
-    width: 20vw;
+    width: 12vw;
     height: auto;
-    margin-top: 7vh;
+    margin-top: 5vh;
+    margin-right: 5vw;
 }
 
 .twitter-dashboard-right-flex-container h3 {
     text-align: center;
+    height: auto;
+    font-size: 1.5em;
     margin-top: 1vh;
+    min-width: 134px;
 }
 
 .twitter-person-follower {
-    margin-left: 2vw;
+    margin-left: 1.5vw;
+    margin-bottom: 0.2vh;
 }
 
 
