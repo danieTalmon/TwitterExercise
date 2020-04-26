@@ -1,0 +1,31 @@
+.twitter-dashboard-followees {
+    width: 35%;
+    height: 100%;
+    float: right;
+}
+
+.twitter-dashboard-followees-flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: 0.3vw solid rgb(170, 168, 168) ;
+    border-radius: 3px;
+    width: 14vw;
+    height: auto;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    min-width: 167.438px;
+}
+
+.twitter-dashboard-followees-header {
+    text-align: center;
+    height: auto;
+    font-size: 1.5em;
+    margin-top: 1vh;
+    min-width: 134px;
+}
+
+.twitter-person-follower {
+    margin-left: 1vw;
+    margin-bottom: 0.2vh;
+}
