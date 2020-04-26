@@ -1,4 +1,4 @@
-body {
+.html-body {
     margin: 0;
 }
 .topnav {
@@ -8,7 +8,7 @@ body {
     height: 3em;
 }
 
-.topnav a {
+.topnav-link {
     float: left;
     color: whitesmoke;
     text-align: center;
@@ -18,27 +18,25 @@ body {
     font-size: 1.2em;
     text-shadow: 2px 2px black;
 }
-.topnav img {
+.topnav-logo {
     float: left;
-    margin-top: 0.4vh;
-    margin-right: 0.5vw;
-    margin-left: 0.2vw;
+    margin: 1vh 0.5vw 0.8vh 0.2vw;
     width: 2em;
-    height: 4vh;
+    height: 5vh;
 }
 
-.topnav p {
+.topnav-title {
     float: left;
     color: whitesmoke;
-    font-size: 2em;
-    margin-top: 0.4vh;
+    font-size: 1.6em;
+    margin-top: 1vh;
 }
 
-.topnav-right {
+.topnav-links {
     float: right; 
 }
 
-.twitter-filter-section p {
+.twitter-filter-section-search-text {
     margin-top: 2.2vh;
     margin-left: 8vw;
     font-size: 1.2em;
@@ -46,16 +44,16 @@ body {
     margin-right: 0.5vw;
 }
 
-.twitter-body .twitter-filter-section input {
+.twitter-filter-section-search-input-and-btn {
     margin-top: 2.2vh;
 }
 
-.twitter-dashboard-left {
+.twitter-dashboard-followees-suggesttions {
     width: 75%;
     float: left;
 }
 
-.twitter-flex-container-dashboard {
+.twitter-flex-container-followees-suggesttions {
     display: flex;
     align-content: flex-start;
     width: 50%;
@@ -75,7 +73,7 @@ body {
     margin-right: 0.7vw;
 
 }
-.twitter-person input {
+.twitter-person-follow-btn {
     width: auto;
     font-size: 0.9em;
     margin-top: 0.5vh;
@@ -83,7 +81,7 @@ body {
     min-width: 68.8px;
 }
 
-.twitter-person img {
+.twitter-person-image {
     width: 3vw;
     height: 6vh;
     padding-left: 20%;
@@ -91,7 +89,7 @@ body {
     padding-top: 1.5vh;
 }
 
-.twitter-person p {
+.twitter-person-name {
     margin-left: 15%;
     margin-top: 1.5vh;
     width: 70%;
