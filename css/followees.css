@@ -1,5 +1,5 @@
 .twitter-dashboard-followees {
-    width: 35%;
+    width: 50%;
     height: 100%;
     float: right;
 }
@@ -13,19 +13,21 @@
     width: 14vw;
     height: auto;
     margin-top: 5vh;
-    margin-right: 5vw;
+    margin-right: 5em;
     min-width: 167.438px;
+    max-width: 322.556;
+    float: right;
 }
 
 .twitter-dashboard-followees-header {
     text-align: center;
     height: auto;
     font-size: 1.5em;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
     min-width: 134px;
 }
 
 .twitter-person-follower {
     margin-left: 1vw;
-    margin-bottom: 0.2vh;
+    margin-bottom: 0.5vw;
 }
