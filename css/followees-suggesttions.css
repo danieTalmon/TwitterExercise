@@ -1,0 +1,66 @@
+.twitter-dashboard-followees-suggesttions {
+    width: 50%;
+    float: left;
+}
+
+.twitter-filter-section-search-text {
+    margin: 2vh 0.5vw 0.1vh 8vw;
+    font-size: 1.2em;
+    float: left;
+}
+
+.twitter-filter-section-search-input-and-btn {
+    margin-top: 2vh;
+}
+
+.twitter-flex-container-followees-suggesttions {
+    display: flex;
+    align-content: flex-start;
+    width: 85%;
+    height: 100%;
+    flex-flow: row wrap;
+    margin-left: 9vw;
+}
+
+.twitter-person {
+    width: 9vw;
+    height: 21vh;
+    text-align: center;
+    border: 0.2vw solid rgb(187, 184, 184) ;
+    border-radius: 3px;
+    margin-top: 1vh;
+    margin-right: 0.7vw;
+    min-width: 113px;
+    max-width: 170px;
+    max-height: 189px;
+    min-height: 128px;
+
+
+}
+.twitter-person-follow-btn {
+    width: auto;
+    font-size: 0.9em;
+    margin-top: 0.5vh;
+    word-wrap: break-word;
+    min-width: 68.8px;
+}
+
+.twitter-person-image {
+    width: 3em;
+    height: 3em;
+    padding: 1.5vh 20% initial 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1.5vh;
+}
+
+.twitter-person-name {
+    margin-left: 15%;
+    margin-top: 0.8vh;
+    width: 70%;
+}
+
+
+.twitter-person:hover {
+    border-color: rgb(119, 111, 111);
+}
